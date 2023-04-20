@@ -1,0 +1,17 @@
+{
+  "name": "plootoe2etestsuite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:withConfigFile": ".\\node_modules\\.bin\\tsc -p . && .\\node_modules\\.bin\\testcafe"
+  },
+  "author": "bruno.salapic",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "testcafe": "^1.20.1",
+    "typescript": "^4.9.4"
+  }
+}
